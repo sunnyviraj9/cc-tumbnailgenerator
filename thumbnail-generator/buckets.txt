@@ -1,0 +1,4 @@
+All buckets:
+  amc-code-buck926827998536
+  amc-image-pixelater-processed9268-2799-8536
+  amc-image-pixelater-source926827998536

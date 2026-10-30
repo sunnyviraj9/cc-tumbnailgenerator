@@ -1,0 +1,26 @@
+============================= test session starts =============================
+collecting ... collected 18 items
+
+tests/test_local.py::TestImageThumbnail::test_corrupt_image_raises_error PASSED [  5%]
+tests/test_local.py::TestImageThumbnail::test_jpeg_is_resized PASSED     [ 11%]
+tests/test_local.py::TestImageThumbnail::test_output_is_always_png PASSED [ 16%]
+tests/test_local.py::TestImageThumbnail::test_png_already_small_stays_same PASSED [ 22%]
+tests/test_local.py::TestImageThumbnail::test_png_large_landscape_is_resized PASSED [ 27%]
+tests/test_local.py::TestImageThumbnail::test_png_large_portrait_is_resized PASSED [ 33%]
+tests/test_local.py::TestImageThumbnail::test_png_palette_mode_handled PASSED [ 38%]
+tests/test_local.py::TestImageThumbnail::test_png_rgba_mode_handled PASSED [ 44%]
+tests/test_local.py::TestImageThumbnail::test_png_square_is_resized_correctly PASSED [ 50%]
+tests/test_local.py::TestImageThumbnail::test_unsupported_extension_raises_value_error PASSED [ 55%]
+tests/test_local.py::TestPdfThumbnail::test_pdf_page1_is_rendered_and_resized SKIPPED [ 61%]
+tests/test_local.py::TestPdfThumbnail::test_pdf_via_process_file SKIPPED [ 66%]
+tests/test_local.py::TestProcessFileRouting::test_rejects_empty_extension PASSED [ 72%]
+tests/test_local.py::TestProcessFileRouting::test_rejects_gif PASSED     [ 77%]
+tests/test_local.py::TestProcessFileRouting::test_rejects_tiff PASSED    [ 83%]
+tests/test_local.py::TestProcessFileRouting::test_routes_jpeg PASSED     [ 88%]
+tests/test_local.py::TestProcessFileRouting::test_routes_jpg PASSED      [ 94%]
+tests/test_local.py::TestProcessFileRouting::test_routes_png PASSED      [100%]
+
+=========================== short test summary info ===========================
+SKIPPED [1] ..\Users\SUNNY VIRAJ\OneDrive - Shri Vile Parle Kelavani Mandal\cc-project\thumbnail-generator\tests\test_local.py:272: Poppler not installed on this machine.
+SKIPPED [1] ..\Users\SUNNY VIRAJ\OneDrive - Shri Vile Parle Kelavani Mandal\cc-project\thumbnail-generator\tests\test_local.py:291: Poppler not installed on this machine.
+======================== 16 passed, 2 skipped in 0.65s ========================

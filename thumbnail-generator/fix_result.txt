@@ -1,0 +1,7 @@
+Auth OK
+Index mediaType: application/vnd.oci.image.index.v1+json
+Manifests in index: 2
+amd64 child digest: sha256:aa7189f877835ce0971e9399ccace63e4e2989a273b28e6179130ec32ea7ef68
+Child mediaType: application/vnd.oci.image.manifest.v1+json
+SUCCESS — latest now points to Docker v2 manifest
+New digest: sha256:aa7189f877835ce0971e9399ccace63e4e2989a273b28e6179130ec32ea7ef68

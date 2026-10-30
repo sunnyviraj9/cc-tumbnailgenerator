@@ -1,0 +1,7 @@
+Run at: 2026-10-26 23:00:17.398701
+CREATED  s3://intake-bucket-926827998536
+CREATED  s3://output-bucket-926827998536
+
+Bucket names to use:
+  intake-bucket-926827998536
+  output-bucket-926827998536

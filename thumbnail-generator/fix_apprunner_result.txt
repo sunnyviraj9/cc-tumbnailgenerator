@@ -1,0 +1,2 @@
+=== Step 1: Creating App Runner instance role ===
+Instance role exists, policy updated: arn:aws:iam::926827998536:role/thumbnail-ui-instance-role

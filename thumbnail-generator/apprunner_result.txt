@@ -1,0 +1,9 @@
+IAM role exists: arn:aws:iam::926827998536:role/thumbnail-ui-apprunner-role
+
+App Runner service CREATED!
+Status  : OPERATION_IN_PROGRESS
+Service : arn:aws:apprunner:us-east-1:926827998536:service/thumbnail-generator-ui/783bcfee9d414484afe0236a85b7a0c0
+URL     : https://yp3isexmqn.us-east-1.awsapprunner.com
+
+NOTE: It takes 2-3 minutes to become fully running.
+Your public URL: https://yp3isexmqn.us-east-1.awsapprunner.com

@@ -1,0 +1,4 @@
+Pillow==10.3.0
+pdf2image==1.17.0
+boto3==1.34.131
+awslambdaric==2.2.1

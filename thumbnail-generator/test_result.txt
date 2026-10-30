@@ -1,0 +1,39 @@
+Uploaded: s3://intake-bucket-926827998536/test_1793036410.jpg
+Waiting 25s for Lambda...
+
+SUCCESS! Output bucket has 3 file(s):
+  thumb_test_1793036374.png  (1734 bytes)
+  thumb_test_1793036387.png  (1734 bytes)
+  thumb_test_1793036410.png  (1734 bytes)
+
+Latest log stream: 2026/10/26/[$LATEST]c6df9fdd7b9c4564b66b4e2da8451144
+File "/var/task/botocore/client.py", line 565, in _api_call
+return self._make_api_call(operation_name, kwargs)
+File "/var/task/botocore/client.py", line 1017, in _make_api_call
+raise error_class(parsed_response, operation_name)
+END RequestId: 9bea17b3-4c18-4f2d-bd2a-73e061a151ba
+REPORT RequestId: 9bea17b3-4c18-4f2d-bd2a-73e061a151ba	Duration: 116.52 ms	Billed Duration: 117 ms	Memory Size: 512 MB	Max Memory Used: 82 MB
+START RequestId: 8d29aa67-0288-44b4-9d79-1bf049e7605e Version: $LATEST
+botocore.exceptions.ClientError: An error occurred (403) when calling the HeadObject operation: Forbidden[INFO]	2026-10-26T17:39:37.932Z	8d29aa67-0288-44b4-9d79-1bf049e7605e	Processing: s3://intake-bucket-926827998536/test_1793036374.jpg
+[INFO]	2026-10-26T17:39:37.932Z	8d29aa67-0288-44b4-9d79-1bf049e7605e	Downloading s3://intake-bucket-926827998536/test_1793036374.jpg → /tmp/test_1793036374.jpg
+[INFO]	2026-10-26T17:39:38.214Z	8d29aa67-0288-44b4-9d79-1bf049e7605e	Image thumbnail created: /tmp/thumb_test_1793036374.png (size: (200, 150))
+[INFO]	2026-10-26T17:39:38.214Z	8d29aa67-0288-44b4-9d79-1bf049e7605e	Uploading /tmp/thumb_test_1793036374.png → s3://output-bucket-926827998536/thumb_test_1793036374.png
+[INFO]	2026-10-26T17:39:38.315Z	8d29aa67-0288-44b4-9d79-1bf049e7605e	SUCCESS: test_1793036374.jpg → s3://output-bucket-926827998536/thumb_test_1793036374.png
+END RequestId: 8d29aa67-0288-44b4-9d79-1bf049e7605e
+REPORT RequestId: 8d29aa67-0288-44b4-9d79-1bf049e7605e	Duration: 395.93 ms	Billed Duration: 396 ms	Memory Size: 512 MB	Max Memory Used: 85 MB
+START RequestId: 87ac2a11-91b1-4fab-b40b-22c686e61dfd Version: $LATEST
+[INFO]	2026-10-26T17:39:51.581Z	87ac2a11-91b1-4fab-b40b-22c686e61dfd	Processing: s3://intake-bucket-926827998536/test_1793036387.jpg
+[INFO]	2026-10-26T17:39:51.581Z	87ac2a11-91b1-4fab-b40b-22c686e61dfd	Downloading s3://intake-bucket-926827998536/test_1793036387.jpg → /tmp/test_1793036387.jpg
+[INFO]	2026-10-26T17:39:51.691Z	87ac2a11-91b1-4fab-b40b-22c686e61dfd	Image thumbnail created: /tmp/thumb_test_1793036387.png (size: (200, 150))
+[INFO]	2026-10-26T17:39:51.691Z	87ac2a11-91b1-4fab-b40b-22c686e61dfd	Uploading /tmp/thumb_test_1793036387.png → s3://output-bucket-926827998536/thumb_test_1793036387.png
+[INFO]	2026-10-26T17:39:51.773Z	87ac2a11-91b1-4fab-b40b-22c686e61dfd	SUCCESS: test_1793036387.jpg → s3://output-bucket-926827998536/thumb_test_1793036387.png
+END RequestId: 87ac2a11-91b1-4fab-b40b-22c686e61dfd
+REPORT RequestId: 87ac2a11-91b1-4fab-b40b-22c686e61dfd	Duration: 201.38 ms	Billed Duration: 202 ms	Memory Size: 512 MB	Max Memory Used: 85 MB
+START RequestId: 6520db57-7f54-4fd7-ad35-ea96a87ae2d7 Version: $LATEST
+[INFO]	2026-10-26T17:40:14.560Z	6520db57-7f54-4fd7-ad35-ea96a87ae2d7	Processing: s3://intake-bucket-926827998536/test_1793036410.jpg
+[INFO]	2026-10-26T17:40:14.560Z	6520db57-7f54-4fd7-ad35-ea96a87ae2d7	Downloading s3://intake-bucket-926827998536/test_1793036410.jpg → /tmp/test_1793036410.jpg
+[INFO]	2026-10-26T17:40:14.676Z	6520db57-7f54-4fd7-ad35-ea96a87ae2d7	Image thumbnail created: /tmp/thumb_test_1793036410.png (size: (200, 150))
+[INFO]	2026-10-26T17:40:14.676Z	6520db57-7f54-4fd7-ad35-ea96a87ae2d7	Uploading /tmp/thumb_test_1793036410.png → s3://output-bucket-926827998536/thumb_test_1793036410.png
+[INFO]	2026-10-26T17:40:14.794Z	6520db57-7f54-4fd7-ad35-ea96a87ae2d7	SUCCESS: test_1793036410.jpg → s3://output-bucket-926827998536/thumb_test_1793036410.png
+END RequestId: 6520db57-7f54-4fd7-ad35-ea96a87ae2d7
+REPORT RequestId: 6520db57-7f54-4fd7-ad35-ea96a87ae2d7	Duration: 244.02 ms	Billed Duration: 245 ms	Memory Size: 512 MB	Max Memory Used: 86 MB

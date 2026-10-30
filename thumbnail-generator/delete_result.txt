@@ -1,0 +1,1 @@
+DELETE_ERROR: An error occurred (InvalidStateException) when calling the DeleteService operation: Service cannot be deleted in the current state: OPERATION_IN_PROGRESS.

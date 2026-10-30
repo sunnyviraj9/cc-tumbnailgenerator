@@ -1,0 +1,3 @@
+Media type: application/vnd.oci.image.index.v1+json
+Schema version: 2
+Manifests count: 2

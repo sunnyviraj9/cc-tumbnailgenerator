@@ -1,0 +1,2 @@
+=== Step 1: Creating ECR repo for UI ===
+ECR repo created: thumbnail-generator-ui
